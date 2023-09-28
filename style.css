@@ -31,7 +31,7 @@ body{
     justify-content: space-between;
     align-items: center;
     color: rgb(116, 112, 112);
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
 .music-nav h3 span{
     color: rgb(82, 82, 238);
@@ -87,7 +87,6 @@ body{
     align-items: center;
     border-radius: 5px;
 }
-/* MY NAV ENDS HERE */
 
 /* DETAILS-OF-MUSIC-STARTS-HERE */
 .detail-names{
@@ -97,7 +96,7 @@ body{
 }
 .new-hits h4{
     position: relative;
-    left: 45px;
+    left: 3vw;
     font-size: 1.2vw;
 }
 .title-of-music h1{
@@ -105,6 +104,7 @@ body{
     position: relative;
     left: 5vw;    
     bottom: 1.5vw;
+    letter-spacing: 3px;
 }
 .singer-name{
     display: flex;
@@ -124,7 +124,7 @@ body{
 
 .btn{
     position: relative;
-    bottom: 7vw;
+    bottom: 6vw;
     left: 5.5vw;
 }
 .btn button{
@@ -145,6 +145,50 @@ body{
     left: 20px;
     top: 3px;
 }
-/* DETAILS-OF-MUSIC-ENDS-HERE */
+
+
+/* Top-Artists-starts-here */
+.top-artists{
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(129, 122, 122); 
+    width: 55%;
+    height: 20vh;
+    position: relative;
+    padding: 1vw;
+    bottom: 1vw;
+    left: 3.5vw;
+}
+.top-artist-nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 1.5vw;
+}
+.artist-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 2vw;
+    line-height: 0;
+    text-align: center;
+}
+.artist-img img{
+    width: 5vw;
+    height: 8vh;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.artist-img h5{
+    position: relative;
+    bottom: 0.8vw;
+    font-size: 1.2vw;
+}
+.artist-img p{
+    font-size: 1vw;
+    position: relative;
+    bottom: 1.5vw;
+}
 
 
