@@ -1,0 +1,96 @@
+/* Anish's work */
+
+/* MY-NAV-STARTS-HERE */
+.music-details{
+    width: 79%;
+    height: 95vh;
+    background-color: rgb(251, 247, 247);
+    border: 2px solid black;
+    position: absolute;
+    left:20.5vw;
+    top: 0;
+    padding:5px 0;
+    overflow: hidden;
+}
+.music-nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(116, 112, 112);
+    border-bottom: 1px solid black;
+}
+.music-nav h3 span{
+    color: blue;
+}
+
+.nav-1{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    position: relative;
+    left: 30px;
+    font-size: 1vw;
+}
+.nav-2{
+    display: flex;
+    position: relative;
+    right: 40px;
+    bottom: 2px;
+}
+.nav-2 input{
+    padding: 1.5vh 4vw;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 3px rgb(129, 122, 122);
+    border-radius: 5px;
+    text-align: center;
+}
+.nav-2 i{
+    font-size: 1.2vw;
+    position: relative;
+    left: 35px;
+    top: 8px;
+}
+
+.nav-3{
+    width: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.nav-3 i{
+    font-size: 1.2vw;
+}
+.nav-3 .dave{
+    background-color: rgb(5, 5, 63);
+    color: white;
+    width: 50%;
+    height: 45px;
+    position: relative;
+    bottom: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+/* MY NAV ENDS HERE */
+
+/* DETAILS-OF-MUSIC-STARTS-HERE */
+.detail-names{
+    border: 2px solid black;
+    color: rgb(116, 112, 112);
+}
+.new-hits{
+
+}
+.title-of-music{
+
+}
+.singer-name{
+    display: flex;
+}
+/* DETAILS-OF-MUSIC-ENDS-HERE */
+
+
