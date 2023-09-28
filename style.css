@@ -17,7 +17,7 @@ body{
     width: 79%;
     height: 95vh;
     background-color: rgb(251, 247, 247);
-    border: 2px solid black;
+    /* border: 2px solid black; */
     position: absolute;
     left:20.5vw;
     top: 0;
