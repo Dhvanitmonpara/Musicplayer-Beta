@@ -1,25 +1,25 @@
 /* Anish's work */
 
 /* MY-NAV-STARTS-HERE */
+music{
+    font-family: 'Gabarito', cursive;
+}
 .music-details{
-    width: 79%;
-    height: 95vh;
-    background-color: rgb(251, 247, 247);
-    /* border: 2px solid black; */
+    width: 84.9vw;
+    height: 99.5vh;
     position: absolute;
-    left:20.5vw;
+    margin-left:14.8vw;
     top: 0;
-    padding:5px 0;
     overflow: hidden;
 }
 .music-nav{
+    position: relative;
     width: 100%;
-    height: 60px;
+    height: 8vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: rgb(116, 112, 112);
-    /* border-bottom: 1px solid black; */
 }
 .music-nav h3 span{
     color: rgb(82, 82, 238);
@@ -27,31 +27,31 @@
 
 .nav-1{
     display: flex;
-    justify-content: space-around;
-    width: 25%;
+    justify-content:space-evenly;
+    width: 18%;
     position: relative;
-    left: 30px;
-    font-size: 1vw;
+    margin-left: 1.4vw;
+    font-size: 1.5vh;
 }
 .nav-2{
     display: flex;
     position: relative;
-    right: 40px;
-    bottom: 2px;
+    margin-right: 4vw;
 }
 .nav-2 input{
-    padding: 1.5vh 4vw;
+    padding: 1.5vh 3vw;
     outline: none;
     border: none;
     box-shadow: 1px 1px 3px rgb(129, 122, 122);
     border-radius: 5px;
     text-align: center;
+    font-size: 1.5vh;
 }
 .nav-2 i{
-    font-size: 1.2vw;
+    font-size: 2vh;
     position: relative;
-    left: 35px;
-    top: 8px;
+    left: 2vw;
+    margin-top: 1.4vh;
 }
 
 .nav-3{
@@ -61,19 +61,26 @@
     display: flex;
 }
 .nav-3 i{
-    font-size: 1.2vw;
+    font-size: 2vh;
 }
 .nav-3 .dave{
-    background-color: rgb(5, 5, 63);
+    background-color:rgba(8, 8, 51, 0.852);
     color: white;
-    width: 50%;
-    height: 45px;
+    width: 45%;
+    height: 6vh;
     position: relative;
     bottom: 3px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 5px;
+    font-size: 1.5vh;
+}
+.nav-3 .dave img{
+    width: 4vw;
+    height: 5vh;
+    border-radius: 5px;
+    object-fit: cover;
 }
 
 /* DETAILS-OF-MUSIC-STARTS-HERE */
@@ -84,43 +91,43 @@
 }
 .new-hits h4{
     position: relative;
-    left: 3vw;
-    font-size: 1.2vw;
+    margin-left: 3vw;
+    font-size: 1.9vh;
+    bottom: 0.9vw;
 }
 .title-of-music h1{
-    font-size: 4vw;
+    font-size: 8vh;
     position: relative;
-    left: 5vw;    
-    bottom: 1.5vw;
-    letter-spacing: 3px;
+    margin-left: 5vw;    
+    bottom: 1.7vw;
 }
 .singer-name{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 25%;
     position: relative;
-    left: 5.5vw;
-    bottom: 6vw;
+    margin-left: 4.2vw;
+    bottom: 5.5vw;
 }
 .singer-name h3{
-    font-size: 1.5vw;
+    font-size: 3vh;
 }
 .singer-name p{
-    font-size: 1.2vw;
+    font-size: 2.4vh;
 }
 
 .btn{
     position: relative;
     bottom: 6vw;
-    left: 5.5vw;
+    margin-left: 5.5vw;
 }
 .btn button{
     background-color: rgb(82, 82, 238);
     color: white;
     font-weight: 600;
     border: none;
-    padding: 1vw 2vw;
+    padding: 2vh 2vw;
     border-radius: 30px;
 }
 .btn i{
@@ -130,39 +137,45 @@
     padding: 0.8vw 0.8vw;
     border-radius: 50%;
     position: relative;
-    left: 20px;
-    top: 3px;
+    margin-left: 1.5vw;
 }
 
 
 /* Top-Artists-starts-here */
 .top-artists{
-    background-color: white;
     box-shadow: 1px 1px 3px rgb(129, 122, 122); 
-    width: 55%;
+    background-color: white;
+    width: 56%;
     height: 20vh;
     position: relative;
-    padding: 1vw;
-    bottom: 1vw;
+    padding: 1.5vw;
+    bottom: 1.5vw;
     left: 3.5vw;
 }
 .top-artist-nav{
     display: flex;
     justify-content: space-between;
     position: relative;
-    bottom: 1.5vw;
+    bottom: 1.3vw;
+}
+.top-artist-nav h3{
+    font-size: 1.7vh;
+}
+.top-artist-nav p{
+    font-size: 1.6vh;
+    margin-top: 2vh;
 }
 .artist-img {
     width: 100%;
     display: flex;
     justify-content: space-between;
     position: relative;
-    bottom: 2vw;
+    bottom: 0.5vw;
     line-height: 0;
     text-align: center;
 }
 .artist-img img{
-    width: 5vw;
+    width: 6vw;
     height: 8vh;
     border-radius: 15px;
     object-fit: cover;
@@ -171,12 +184,198 @@
 .artist-img h5{
     position: relative;
     bottom: 0.8vw;
-    font-size: 1.2vw;
+    font-size: 2vh;
 }
 .artist-img p{
-    font-size: 1vw;
+    font-size: 1.5vh;
     position: relative;
-    bottom: 1.5vw;
+    bottom: 1.2vw;
 }
 
+/* Genres and top charts starts here */
+/* Genres-starts-here */
+.genres-top-charts{
+    display: flex;
+    justify-content: space-between;
+    width: 59.5%;
+    height: 29vh;
+    position: relative;
+    left: 3.5vw;
+}
+
+.genres-top-charts .genres{
+    width: 30%;
+    height: 29vh;
+    box-shadow: 1px 1px 3px rgb(129, 122, 122); 
+    background-color: white;
+}
+
+.genres-top-charts .genres .genres-nav{
+    height: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 1vw;
+}
+.genres-nav h3{
+    font-size: 1.7vh;
+}
+.genres-nav p{
+    font-size: 1.6vh;
+}
+.genres-details{
+    height: 82%;
+    width: 100%;
+}
+.genres-details .details-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2vw;
+    font-size: 1.5vh;
+}
+
+.genres-details .beat{
+    background-color: rgba(154, 199, 239, 0.582) ;
+    border-radius: 10px;
+    margin: 0.2vw;
+    padding: 0.6vw 1.5vw;
+}
+.genres-details .pop{
+    background-color: rgba(229, 231, 171, 0.577);
+    border-radius: 10px;
+    margin: 0.2vw;
+    padding: 0.6vw 1.5vw;
+}
+.genres-details .indie{
+    background-color: rgba(237, 182, 176, 0.567);
+    border-radius: 10px;
+    margin: 0.2vw;
+    padding: 0.6vw 1.5vw;
+}
+.genres-details .hop{
+    background-color: rgba(159, 228, 190, 0.555);
+    border-radius: 10px;
+    margin: 0.2vw;
+    padding: 0.6vw 1.5vw;
+}
+.genres-details .period{
+    background-color: rgba(238, 240, 215, 0.586);
+    border-radius: 10px;
+    margin: 0.2vw;
+    padding: 0.6vw 1.5vw;
+}
+.genres-details .rap{
+    background-color: rgba(142, 178, 192, 0.505);
+    border-radius: 10px;
+    margin: 0.2vw;
+    padding: 0.6vw 1.5vw;
+}
+
+/* Top-charts-starts-here */
+.genres-top-charts .top-charts{
+    width: 67%;
+    height: 29vh;
+    box-shadow: 1px 1px 3px rgb(129, 122, 122); 
+    background-color: white;
+}
+.genres-top-charts .top-charts .top-charts-nav{
+    height: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 1vw;
+}
+.top-charts-nav h3{
+    font-size: 1.7vh;
+}
+.top-charts-nav p{
+    font-size: 1.6vh;
+}
+
+.top-charts-det-1{
+    box-sizing: border-box;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7vh;
+    padding: 1vw;
+}
+.top-charts-det-1 img{
+    width: 3vw;
+    height: 4vh;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.top-charts-det-1 .singer-and-song{
+    line-height: 0;
+    width: 40%;
+    margin-right: 6vw;
+}
+
+/* music-player-starts-here  */
+.music-player-container{
+    width: 31%;
+    height: 57.5vh;
+    box-shadow: 1px 1px 3px rgb(129, 122, 122); 
+    background-color: white;
+    position: relative;
+    margin-left: 56vw;
+    bottom: 57.5vh;
+    color: white;
+
+}
+.music-player-profile{
+    background-color: rgba(8, 8, 51, 0.852);
+    height: 70%;
+    text-align: center;
+}
+.music-player-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+    padding: 1vw;
+    box-sizing: border-box;
+    font-size: 2vh;
+}
+.music-player-image img{
+    width: 10vw;
+    height: 15vh;
+    border-radius: 15px;
+    object-fit: cover;
+    position: relative;
+    margin-top: 2vh;
+}
+.music-player-current-song{
+    line-height: 1vh;
+}
+.music-player-radio-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    gap: 5px;
+}
+input[type="range"] {
+    width: 13vw;
+    height: 0.2vh;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.music-player-play-pause{
+    height: 30%;
+    background-color: rgba(8, 63, 241, 0.796);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 3vh;
+}
+.music-player-play-pause .fa-circle-play{
+    font-size: 7vh;
+}
 
