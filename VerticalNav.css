@@ -34,7 +34,7 @@ body {
 
   .logocontainer{
     justify-content: center;
-    margin-top: 2vh;
+    margin-top: 3vh;
     margin-bottom: 2vh;
   }
   
@@ -151,7 +151,7 @@ body {
 
 .device-name {
     color: white;
-    font-size: 1vw;
+    font-size: 0.9vw;
     font-family: 'Gabarito', cursive;
     text-align: center;
 }
