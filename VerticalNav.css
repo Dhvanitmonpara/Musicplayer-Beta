@@ -16,28 +16,44 @@ body {
   .vertical-nav {
     background-color: #E8ECEF;
     height: 100vh;
-    width: 17vw;
+    width: 15vw;
     display: flex;
     flex-direction: column;
+  }
+
+  .logocontainer{
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
   }
   
   .weblogo {
     display: flex;
     flex-direction: row;
-    margin: 28px;
+    justify-content:  space-between;
+    align-items: center;
+  }
+
+  .webname{
+    font-family: 'Gabarito', cursive;
+    font-size: 22px;
+    font-weight: bolder;
   }
   
   .menu, .library, .playlist {
-    margin-top: 20px; /* Adjust the margin for better spacing */
+    margin-top: 20px;
   }
-  
+
   .menu-title, .library-title, .playlist-title {
     margin-bottom: 10px; 
-    margin-left: 28px;
+    margin-left: 35px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: small;
   }
   
   .menu-container, .library-container, .playlist-container {
-    height: 20vh;
+    height: 19vh;
     display: flex;
     flex-direction: row;
   }
@@ -46,7 +62,7 @@ body {
   .menu-items, .library-items, .playlist-items {
     display: flex;
     flex-direction: column;
-    height: 10vh;
+    height: 15vh;
     justify-content: space-between;
   }
 
@@ -67,9 +83,9 @@ body {
     flex-direction: row;
     background-color: #363640;
     height: 9vh;
-    width: 13vw;
+    width: 10vw;
     margin-top: 30px;
-    margin-left: 28px;
+    margin-left: 35px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
@@ -79,11 +95,11 @@ body {
     color: white;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
-    margin-left: 28px;
+    margin-left: 35px;
     height: 4vh;
-    width: 13vw;
+    width: 10vw;
   }
   
   .miniplayer-title {
-    /* Add your styles for miniplayer-title here */
+    font-weight: bold;
   }
