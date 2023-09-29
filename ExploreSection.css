@@ -1,15 +1,3 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-
-.vertical-nav{
-    background-color:  #E7ECF2;
-    height: vh;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-}
 /* Anish's work */
 
 /* MY-NAV-STARTS-HERE */
