@@ -326,7 +326,6 @@ music{
     margin-left: 56vw;
     bottom: 57.5vh;
     color: white;
-
 }
 .music-player-profile{
     background-color: rgba(8, 8, 51, 0.852);
@@ -344,10 +343,11 @@ music{
     font-size: 2vh;
 }
 .music-player-image img{
-    width: 10vw;
+    border: 1px solid white;
+    width: 11vw;
     height: 15vh;
     border-radius: 15px;
-    object-fit: cover;
+    object-fit:cover;
     position: relative;
     margin-top: 2vh;
 }
